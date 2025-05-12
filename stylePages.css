@@ -6,6 +6,8 @@
     margin-top: 0px;
     position: fixed;
     top: 0;
+    z-index: 1000; /* Add this */
+   width: 100%;
 }
 
 .navbar-nav .nav-item
