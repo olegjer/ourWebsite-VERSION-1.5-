@@ -1,0 +1,72 @@
+/* Nav bar style */
+.navbar-wrapper
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    position: fixed;
+    top: 0;
+}
+
+.navbar-nav .nav-item
+{
+    margin: 0 15px;
+}
+
+/*NAVIGATION BAR COLOUR*/
+.colour-green
+{
+    background-color: #AAB99A;
+}
+
+/*BACKGROUND COLOUR*/
+.background-colour
+{
+  background-color: #D0DDD0;
+}
+
+.width-100
+{
+  width: 100%;
+}
+
+.text-align-center
+{
+  text-align: center;
+}
+
+/*BODY*/
+body
+{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+}
+
+/*BURGER BUTTON OUTLINE FIX*/
+.navbar-toggler
+{
+  border: none;
+  outline: none;
+}
+
+.navbar-toggler[type=button]
+{
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/*HIDES SCROLLBAR*/
+.remove-scrollbar::-webkit-scrollbar
+{
+  display: none;
+}
+
+/**FOOTER**/
+footer
+{
+    text-align: center;
+    background-color: #727D73;
+    color: #000000;
+    padding: 20px;
+    font-size: 20px;
+}
